@@ -1,0 +1,2574 @@
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin glargine",
+        "target_type": "MEDICATION",
+        "relationship": "ADDED_TO",
+        "evidence": "Adding once-weekly tirzepatide vs prandial insulin lispro to insulin glargine in basal insulin-treated patients with type 2 diabetes"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED_TO",
+        "evidence": "mean change in hemoglobin A1c (HbA1c) at week 52 was −2.1% with tirzepatide vs −1.1% with insulin lispro"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "RESULTS_IN",
+        "evidence": "resulted in greater reductions in HbA1c along with more weight loss and less hypoglycemia"
+    },
+    {
+        "source": "insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "insulin glargine",
+        "target_type": "MEDICATION",
+        "relationship": "ADDED_TO",
+        "evidence": "Adding once-weekly tirzepatide vs prandial insulin lispro to insulin glargine in basal insulin-treated patients with type 2 diabetes"
+    },
+    {
+        "source": "insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "insulin glargine",
+        "target_type": "MEDICATION",
+        "relationship": "RESULTS_IN",
+        "evidence": "resulted in greater reductions in HbA1c along with more weight loss and less hypoglycemia"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 62 nodes and 61 relationships.
+graph_1.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "chronic",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "pancreatitis",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CAUSES",
+        "evidence": "Individuals who had chronic pancreatitis were excluded from the study."
+    },
+    {
+        "source": "chronic",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "hepatitis",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CAUSES",
+        "evidence": "Individuals who had chronic hepatitis were excluded from the study."
+    },
+    {
+        "source": "diabetic ketoacidosis",
+        "source_type": "HISTORY",
+        "target": "hyper",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "COMPLICATION_OF",
+        "evidence": "Individuals with a history of diabetic ketoacidosis may also have a hyperosmolar state/coma."
+    },
+    {
+        "source": "medullary thyroid carcinoma",
+        "source_type": "FAMILY_HISTORY",
+        "target": "multiple endocrine neoplasia syndrome type 2",
+        "target_type": "HISTORY",
+        "relationship": "PREDISPOSES_TO",
+        "evidence": "Individuals with a family history of medullary thyroid carcinoma may be predisposed to multiple endocrine neoplasia syndrome type 2."
+    },
+    {
+        "source": "autoimmune abnormality",
+        "source_type": "DISEASE_DISORDER",
+        "target": "gastric emptying abnormality",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "ASSOCIATED_WITH",
+        "evidence": "An autoimmune abnormality may be associated with gastric emptying abnormalities."
+    },
+    {
+        "source": "study",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "zepatide",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "INVOLVES",
+        "evidence": "The study may involve the investigational product tirzepatide."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 18 nodes and 17 relationships.
+graph_2.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tir",
+        "source_type": "MEDICATION",
+        "target": "Insulin Lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "ADDED_TO",
+        "evidence": "Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes"
+    },
+    {
+        "source": "Tir",
+        "source_type": "MEDICATION",
+        "target": "Basal Insulin",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "ADDED_TO",
+        "evidence": "Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes"
+    },
+    {
+        "source": "10-mg tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "15-mg tirzepatide",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "SUPERIORITY_TO",
+        "evidence": "All tirzepatide doses demonstrated superiority to insulin lispro"
+    },
+    {
+        "source": "Tir",
+        "source_type": "MEDICATION",
+        "target": "HbA1c",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "TREATS",
+        "evidence": "Target HbA1c of less than 7.0% was achieved in tirzepatide-treated participants vs receiving insulin lispro"
+    },
+    {
+        "source": "Tir",
+        "source_type": "MEDICATION",
+        "target": "body weight",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "AFFECTS",
+        "evidence": "Mean change in body weight was significantly different between tirzepatide and insulin lispro"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 56 nodes and 55 relationships.
+graph_3.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED",
+        "evidence": "Greater reductions in fasting serum glucose were observed with all tirzepatide doses vs insulin lispro at week 52."
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED",
+        "evidence": "More participants achieved a composite endpoint of an HbA1c value of less than 7.0% without clinically significant hypoglycemia with tirzepatide vs insulin lispro."
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED",
+        "evidence": "Body weight reduction of at least 5% was met by a higher percentage of participants in the tirzepatide group compared to the insulin lispro group."
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED",
+        "evidence": "Reductions in mean daily 2-hour postprandial glucose were observed with tirzepatide vs insulin lispro."
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED",
+        "evidence": "An HbA1c target of 6.5% or less was achieved by a higher percentage of tirzepatide-treated participants compared to those with insulin lispro."
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED",
+        "evidence": "An HbA1c target of less than 5.7% was achieved by a higher percentage of participants in the tirzepatide group compared to the insulin lispro group."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 46 nodes and 45 relationships.
+graph_4.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Meanbodymass index",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide",
+        "target_type": "MEDICATION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "Meanbodymass index significantly decreased with tirzepatide."
+    },
+    {
+        "source": "waist circumference",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide",
+        "target_type": "MEDICATION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "Waist circumference significantly decreased with tirzepatide."
+    },
+    {
+        "source": "waist circumference",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "INCREASED_WITH",
+        "evidence": "Waist circumference increased with insulin lispro."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide",
+        "target_type": "MEDICATION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "HbA1c significantly decreased with tirzepatide."
+    },
+    {
+        "source": "body weight",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide",
+        "target_type": "MEDICATION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "Body weight significantly decreased with tirzepatide."
+    },
+    {
+        "source": "HbA1c targets",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide",
+        "target_type": "MEDICATION",
+        "relationship": "SIMILAR_WITH",
+        "evidence": "HbA1c targets showed similar results with tirzepatide."
+    },
+    {
+        "source": "weight loss targets",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide",
+        "target_type": "MEDICATION",
+        "relationship": "SIMILAR_WITH",
+        "evidence": "Weight loss targets showed similar results with tirzepatide."
+    },
+    {
+        "source": "baseline HbA1c",
+        "source_type": "LAB_VALUE",
+        "target": "subgroups",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "BETWEEN",
+        "evidence": "Relationship observed between baseline HbA1c and subgroups."
+    },
+    {
+        "source": "baseline HbA1c",
+        "source_type": "LAB_VALUE",
+        "target": "subgroups",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "BETWEEN",
+        "evidence": "Relationship observed between baseline HbA1c and subgroups."
+    },
+    {
+        "source": "baseline HbA1c",
+        "source_type": "LAB_VALUE",
+        "target": "baseline HbA1c ≤8.5%or>8.5%",
+        "target_type": "LAB_VALUE",
+        "relationship": "BETWEEN",
+        "evidence": "Relationship observed between baseline HbA1c and baseline HbA1c ≤8.5%or>8.5%."
+    },
+    {
+        "source": "Triglycerides",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide doses",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "Triglycerides significantly decreased with all tirzepatide doses."
+    },
+    {
+        "source": "total cholesterol",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide doses",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "Total cholesterol significantly decreased with all tirzepatide doses."
+    },
+    {
+        "source": "low-density lipoprotein cholesterol",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide doses",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "Low-density lipoprotein cholesterol significantly decreased with all tirzepatide doses."
+    },
+    {
+        "source": "very-low-density lipoprotein cholesterol",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide doses",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "Very-low-density lipoprotein cholesterol significantly decreased with all tirzepatide doses."
+    },
+    {
+        "source": "non–high-density lipoprotein cholesterol",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide doses",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "Non–high-density lipoprotein cholesterol significantly decreased with all tirzepatide doses."
+    },
+    {
+        "source": "high-density lipoprotein cholesterol",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "tirzepatide doses",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "DECREASED_WITH",
+        "evidence": "High-density lipoprotein cholesterol significantly decreased with all tirzepatide doses."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 29 nodes and 28 relationships.
+graph_5.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide Insulin",
+        "source_type": "PERSON",
+        "target": "Clinical Characteristics Characteristic Mean",
+        "target_type": "ORG",
+        "relationship": "IS_PART_OF",
+        "evidence": "Tirzepatide Insulin lispro (n = 708)"
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Body weight",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "AFFECTS",
+        "evidence": "Insulin lispro (n = 708) 15 mg (n = 236)"
+    },
+    {
+        "source": "Body weight",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "kg",
+        "target_type": "LAB_VALUE",
+        "relationship": "MEASURED_IN",
+        "evidence": "Body weight, kg 91.2 (18.7)"
+    },
+    {
+        "source": "BMI",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "body mass index",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EQUIVALENT_TO",
+        "evidence": "BMI 33.0 (5.3)"
+    },
+    {
+        "source": "metformin",
+        "source_type": "MEDICATION",
+        "target": "Use of metformin",
+        "target_type": "LAB_VALUE",
+        "relationship": "TREATS",
+        "evidence": "Use of metformin, No. (%) 201 (85.2)"
+    },
+    {
+        "source": "insulin glargine",
+        "source_type": "MEDICATION",
+        "target": "Daily insulin glargine dose",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "HAS_DOSE",
+        "evidence": "Daily insulin glargine dose, median (IQR), IU 47.0 (36.0-61.0)"
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "HbA1c >8.5%",
+        "target_type": "LAB_VALUE",
+        "relationship": "INDICATES",
+        "evidence": "HbA1c >8.5%, No. (%) 132 (55.9)"
+    },
+    {
+        "source": "Fasting serum glucose",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "serum glucose",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "MEASURED_IN",
+        "evidence": "Fasting serum glucose, mg/dLd 155.9 (54.3)"
+    },
+    {
+        "source": "eGFR",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "eGFR <60 mL/min/1.73 m2",
+        "target_type": "LAB_VALUE",
+        "relationship": "INDICATES",
+        "evidence": "eGFR <60 mL/min/1.73 m2, No. (%) 24 (10.2)"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 212 nodes and 211 relationships.
+graph_6.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "type 2 diabetes",
+        "source_type": "DISEASE_DISORDER",
+        "target": "first diagnosis",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "HAS_DIAGNOSTIC_PROCEDURE",
+        "evidence": "Duration of diabetes was based on the first diagnosis of type 2 diabetes."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "<6.5%",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_LAB_VALUE",
+        "evidence": "Normal value for HbA1c was <6.5%."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "mol",
+        "target_type": "LAB_VALUE",
+        "relationship": "CONVERSION_EQUATION",
+        "evidence": "To convert HbA1c values to mmol/mol, use the following equation: 10.93 × HbA1c − 23.50."
+    },
+    {
+        "source": "fasting serum glucose",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "74-106 mg/dL",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_LAB_VALUE",
+        "evidence": "Normal value for fasting serum glucose was 74-106 mg/dL for those younger than 60 years."
+    },
+    {
+        "source": "fasting serum glucose",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "82-115 mg/dL",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_LAB_VALUE",
+        "evidence": "Normal value for fasting serum glucose was 82-115 mg/dL for those aged 60-90 years."
+    },
+    {
+        "source": "eGFR",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "/H1135060 mL/min/1.73 m2",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_LAB_VALUE",
+        "evidence": "Normal value for eGFR was /H1135060 mL/min/1.73 m2."
+    },
+    {
+        "source": "eGFR",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "less than 30 mL/min/1.73 m2",
+        "target_type": "LAB_VALUE",
+        "relationship": "EXCLUSION_CRITERIA",
+        "evidence": "Participants with a baseline eGFR less than 30 mL/min/1.73 m2 were excluded from the study."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "Insulin Lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARISON",
+        "evidence": "cholesterol significantly increased with tirzepatide at the 10 mg and 15mg doses vs insulin lispro at week 52."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 39 nodes and 38 relationships.
+graph_7.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "insulin glargine",
+        "source_type": "MEDICATION",
+        "target": "46 IU",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_DOSE",
+        "evidence": "Background insulin glargine dose decreased over time from a geometric mean baseline of 46 IU"
+    },
+    {
+        "source": "insulin glargine",
+        "source_type": "MEDICATION",
+        "target": "week 52",
+        "target_type": "DATE",
+        "relationship": "ENDS_AT",
+        "evidence": "geometric mean daily insulin glargine dose at week 52"
+    },
+    {
+        "source": "insulin glargine",
+        "source_type": "MEDICATION",
+        "target": "8% to 19%",
+        "target_type": "PERCENT",
+        "relationship": "DISCONTINUATION_RATE",
+        "evidence": "8% to 19% of tirzepatide-treated participants completely discontinuing insulin glargine therapy by week 52"
+    },
+    {
+        "source": "insulin glargine",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARE_EFFECT_ON_HbA1c",
+        "evidence": "Effect of Tirzepatide vs Insulin Lispro on Hemoglobin A1c (HbA1c)"
+    },
+    {
+        "source": "insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "week 52",
+        "target_type": "DATE",
+        "relationship": "HAS_DOSE_AT_WEEK",
+        "evidence": "At week 52, geometric mean daily dose of insulin lispro was"
+    },
+    {
+        "source": "insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Overall mean baseline body weight",
+        "target_type": "LAB_VALUE",
+        "relationship": "BASELINE_BODY_WEIGHT",
+        "evidence": "Overall mean baseline body weight = 91 kg"
+    },
+    {
+        "source": "insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Overall mean baseline HbA1c",
+        "target_type": "LAB_VALUE",
+        "relationship": "BASELINE_HbA1c",
+        "evidence": "Overall mean baseline HbA1c = 8.80%"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 81 nodes and 80 relationships.
+graph_8.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "pooled tirzepatide and insulin lispro groups",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "OBSERVED_IN",
+        "evidence": "Boxplots represent observed HbA1c actual values over time for randomized patients from the pooled tirzepatide and insulin lispro groups."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "middle lines",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "REPRESENTED_BY",
+        "evidence": "The middle lines within each box represent the median observed HbA1c."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "boxes",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "REPRESENTED_BY",
+        "evidence": "The symbols in the boxes represent the mean observed HbA1c."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "top and bottom of",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "REPRESENTED_BY",
+        "evidence": "The top and bottom of the boxes represent the interquartile range."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "whiskers extend to",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "EXTENDS_TO",
+        "evidence": "The whiskers extend to the most extreme observed values with 1.5 times the IQR of the nearer quartile."
+    },
+    {
+        "source": "body weight",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "mixed-model repeated measures analysis",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "DERIVED_FROM",
+        "evidence": "Lines show least-squares mean change from baseline in body weight over time, derived from a mixed-model repeated measures analysis."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 19 nodes and 18 relationships.
+graph_9.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "body weight",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "baseline",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "MEASUREMENT_FROM",
+        "evidence": "Boxplots represent observed changes from baseline in body weight over time"
+    },
+    {
+        "source": "box",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "tops and bottoms",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "PART_OF",
+        "evidence": "the box tops and bottoms represent the interquartile range"
+    },
+    {
+        "source": "box",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "whiskers",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "EXTENDS_TO",
+        "evidence": "the whiskers extend to the most extreme observed values"
+    },
+    {
+        "source": "whiskers",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "IQR",
+        "target_type": "ORG",
+        "relationship": "DISTANCE_RELATION",
+        "evidence": "whiskers extend to the most extreme observed values with 1.5 times the IQR of the nearer quartile"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 13 nodes and 12 relationships.
+graph_10.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "Insulin Lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "COMPARED_WITH",
+        "evidence": "Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes"
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "Insulin Lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "HAS_HIGHER_ADVERSE_EVENTS_THAN",
+        "evidence": "Reports of adverse events were higher among the tirzepatide groups vs the insulin lispro group"
+    },
+    {
+        "source": "Insulin Lispro",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "Hypoglycemia",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "MOST_FREQUENT_EVENT",
+        "evidence": "The most frequent event reported with insulin lispro was hypoglycemia"
+    },
+    {
+        "source": "Deaths",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "Insulin Lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "OCCURRED_DURING_TRIAL",
+        "evidence": "18 deaths occurred during the trial, with 11 in the insulin lispro group"
+    },
+    {
+        "source": "Deaths",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "Investigator",
+        "target_type": "PERSON",
+        "relationship": "NOT_RELATED_TO_TREATMENT",
+        "evidence": "None of the deaths were considered to be related to the study treatment by investigators"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 60 nodes and 59 relationships.
+graph_11.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Basal insulin glargine",
+        "source_type": "MEDICATION",
+        "target": "prebreakfast",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Administered before",
+        "evidence": "Basal insulin glargine doses were titrated weekly to a prebreakfast blood glucose target"
+    },
+    {
+        "source": "Basal insulin glargine",
+        "source_type": "MEDICATION",
+        "target": "blood glucose",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "Used for monitoring",
+        "evidence": "Basal insulin glargine doses were titrated weekly to a prebreakfast blood glucose target"
+    },
+    {
+        "source": "blood glucose",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "100 to125mg/dL",
+        "target_type": "LAB_VALUE",
+        "relationship": "Measured as",
+        "evidence": "to a prebreakfast blood glucose target of 100 to125mg/dL"
+    },
+    {
+        "source": "Tirzepatide-treated participants",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "insulin glargine",
+        "target_type": "MEDICATION",
+        "relationship": "Restricted from",
+        "evidence": "Tirzepatide-treated participants were restricted from any up-titration of insulin glargine for 4 weeks after randomization"
+    },
+    {
+        "source": "insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "HbA1c",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "Compared to",
+        "evidence": "demonstrate statistical noninferiority of tirzepatide (pooled cohort) to insulin lispro in change from baseline in HbA1c"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "insulin lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Compared to",
+        "evidence": "demonstrating statistical superiority of tirzepatide (pooled cohort) to insulin lispro in change from baseline in HbA1c and body weight"
+    },
+    {
+        "source": "insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "body weight",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "Compared to",
+        "evidence": "demonstrating statistical superiority of tirzepatide (pooled cohort) to insulin lispro in change from baseline in HbA1c and body weight"
+    },
+    {
+        "source": "tirzepatide doses",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "insulin lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Compared to",
+        "evidence": "demonstrating statistical noninferiority of individual tirzepatide doses to insulin lispro in change in HbA1c from baseline to week 52"
+    },
+    {
+        "source": "individual tirzepatide doses",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "insulin lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Compared to",
+        "evidence": "demonstrating statistical superiority of individual tirzepatide doses to insulin lispro in change in HbA1c and body weight from baseline to week 52"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 51 nodes and 50 relationships.
+graph_12.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "tirz- epatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "nausea",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSES",
+        "evidence": "The most frequently reported adverse events with tirz- epatide were gastrointestinal, including nausea."
+    },
+    {
+        "source": "tirz- epatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "di- arrhea",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSES",
+        "evidence": "The most frequently reported adverse events with tirz- epatide were gastrointestinal, including diarrhea."
+    },
+    {
+        "source": "tirz- epatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "vomiting",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSES",
+        "evidence": "The most frequently reported adverse events with tirz- epatide were gastrointestinal, including vomiting."
+    },
+    {
+        "source": "tirz- epatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "hypoglycemia",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSES",
+        "evidence": "Incidence of clinically significant hypoglycemia was reported with tirz- epatide."
+    },
+    {
+        "source": "tirz- epatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "insulin lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "COMPARED_TO",
+        "evidence": "Event rates were less with tirz- epatide than insulin lispro."
+    },
+    {
+        "source": "tirz- epatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "severity",
+        "target_type": "SEVERITY",
+        "relationship": "MODIFIES",
+        "evidence": "Most cases of nausea, vomiting, and diarrhea were mild to moderate in severity."
+    },
+    {
+        "source": "tirz- epatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "dose-escalation period",
+        "target_type": "DISTANCE",
+        "relationship": "OCCURS_DURING",
+        "evidence": "Nausea, vomiting, and diarrhea occurred during the dose-escalation period."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 37 nodes and 36 relationships.
+graph_13.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide",
+        "source_type": "PERSON",
+        "target": "Pancreatitis",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "Causes",
+        "evidence": "No cases of adjudicated pancreatitis were reported with Tirzepatide."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "PERSON",
+        "target": "Alanine aminotransferase",
+        "target_type": "LAB_VALUE",
+        "relationship": "Affects",
+        "evidence": "Reductions in serum alanine aminotransferase were observed with Tirzepatide."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "PERSON",
+        "target": "Aspartate aminotransferase",
+        "target_type": "LAB_VALUE",
+        "relationship": "Affects",
+        "evidence": "Reductions in serum aspartate aminotransferase were observed with Tirzepatide."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "PERSON",
+        "target": "Cholelithiasis",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "Reported",
+        "evidence": "Nine participants treated with Tirzepatide reported cholelithiasis."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "Cholelithiasis",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "Reported",
+        "evidence": "Two participants treated with Insulin lispro reported cholelithiasis."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "PERSON",
+        "target": "HbA1c",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "Affects",
+        "evidence": "Participants treated with Tirzepatide showed reductions in HbA1c levels."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "PERSON",
+        "target": "Body weight",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "Affects",
+        "evidence": "Participants treated with Tirzepatide showed reductions in body weight."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 129 nodes and 128 relationships.
+graph_14.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "Insulin Lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "COMPARISON",
+        "evidence": "Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes"
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "reti- nopathy",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "SIDE_EFFECT",
+        "evidence": "Tirzepatide vs Insulin Lispro: Tirzepatide–treated participants reported new or worsening retinopathy confirmed by fundoscopic examination"
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "mean pulse rate",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT",
+        "evidence": "Significant increases in mean pulse rate reached up to 4.5 per minute with tirzepatide"
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "systolic blood pressure",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT",
+        "evidence": "Tirzepatide treatment resulted in a significant decrease in mean systolic blood pressure"
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "diastolic blood pressure",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT",
+        "evidence": "Tirzepatide treatment resulted in a significant decrease in mean diastolic blood pressure"
+    },
+    {
+        "source": "Insulin Lispro",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "mean pulse rate",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT",
+        "evidence": "Mean pulse rate with insulin lispro was 2.0 per minute during the trial"
+    },
+    {
+        "source": "Insulin Lispro",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "systolic blood pressure",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT",
+        "evidence": "No significant change in mean systolic blood pressure with insulin lispro at week 52"
+    },
+    {
+        "source": "Insulin Lispro",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "diastolic blood pressure",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT",
+        "evidence": "No significant change in mean diastolic blood pressure with insulin lispro at week 52"
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "HbA1c",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT",
+        "evidence": "Tirzepatide resulted in statistically and clinically significant reductions in mean HbA1c"
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "HbA1c",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT",
+        "evidence": "Higher percentage of participants meeting an HbA1c target of less than 7.0% with Tirzepatide"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 59 nodes and 58 relationships.
+graph_15.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "Insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED_TO",
+        "evidence": "Tirzepatide is compared to Insulin lispro in the adverse events and safety parameters study."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "4 Weeks After",
+        "target_type": "DATE",
+        "relationship": "AFTER",
+        "evidence": "The safety follow-up occurred 4 weeks after treatment with Tirzepatide."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Death",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSED",
+        "evidence": "Insulin lispro is associated with death as an adverse event in the study."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Nausea",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSED",
+        "evidence": "Insulin lispro is associated with nausea as an adverse event in the study."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Weight decreased",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSED",
+        "evidence": "Insulin lispro is associated with weight decrease as an adverse event in the study."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Pancreatic enzymes increased",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "CAUSED",
+        "evidence": "Insulin lispro is associated with increased pancreatic enzymes as an adverse event in the study."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Acute coronary syndrome",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CAUSED",
+        "evidence": "Insulin lispro is associated with acute coronary syndrome as an adverse event in the study."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "COVID-19",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CAUSED",
+        "evidence": "Insulin lispro is associated with COVID-19 as an adverse event in the study."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Diarrhea",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CAUSED",
+        "evidence": "Insulin lispro is associated with diarrhea as an adverse event in the study."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Acute kidney injury",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CAUSED",
+        "evidence": "Insulin lispro is associated with acute kidney injury as an adverse event in the study."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "177",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_VALUE",
+        "evidence": "Insulin lispro is associated with a lab value of 177 in the study."
+    }
+]
+``` 
+
+In addition to the relationships extracted from the text, it might be beneficial to include relationships between dosages, detailed descriptions, and the pooled group (a group mentioned in the text) to further enrich the knowledge graph. Let me know if you would like me to include those relationships as well.
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 87 nodes and 86 relationships.
+graph_16.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Nausea",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "Decreased appetite",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CO-OCCUR",
+        "evidence": "Nausea and Decreased appetite occurred in participants as treatment-emergent adverse events."
+    },
+    {
+        "source": "Nausea",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "Vomiting",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CO-OCCUR",
+        "evidence": "Nausea and Vomiting occurred in participants as treatment-emergent adverse events."
+    },
+    {
+        "source": "Nausea",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "Diarrhea",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CO-OCCUR",
+        "evidence": "Nausea and Diarrhea occurred in participants as treatment-emergent adverse events."
+    },
+    {
+        "source": "Nausea",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "Constipation",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CO-OCCUR",
+        "evidence": "Nausea and Constipation occurred in participants as treatment-emergent adverse events."
+    },
+    {
+        "source": "Nausea",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "COVID-19",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CO-OCCUR",
+        "evidence": "Nausea and COVID-19 occurred in participants as treatment-emergent adverse events."
+    },
+    {
+        "source": "Diarrhea",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "Constipation",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CO-OCCUR",
+        "evidence": "Diarrhea and Constipation occurred in participants as treatment-emergent adverse events."
+    },
+    {
+        "source": "Diarrhea",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "gastrointestinal",
+        "target_type": "BIOLOGICAL_STRUCTURE",
+        "relationship": "AFFECTS",
+        "evidence": "Diarrhea is part of gastrointestinal adverse events."
+    },
+    {
+        "source": "COVID-19",
+        "source_type": "DISEASE_DISORDER",
+        "target": "gastrointestinal",
+        "target_type": "BIOLOGICAL_STRUCTURE",
+        "relationship": "AFFECTS",
+        "evidence": "COVID-19 is part of gastrointestinal adverse events."
+    },
+    {
+        "source": "Urinary tract infection",
+        "source_type": "DISEASE_DISORDER",
+        "target": "gastrointestinal",
+        "target_type": "BIOLOGICAL_STRUCTURE",
+        "relationship": "AFFECTS",
+        "evidence": "Urinary tract infection is part of gastrointestinal adverse events."
+    },
+    {
+        "source": "Major adverse cardiovascular events",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "Hypersensitivity",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CO-OCCUR",
+        "evidence": "Major adverse cardiovascular events and Hypersensitivity occurred as treatment-emergent adverse events of interest."
+    },
+    {
+        "source": "Hypersensitivity",
+        "source_type": "DISEASE_DISORDER",
+        "target": "Injection-site reactions",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CO-OCCUR",
+        "evidence": "Hypersensitivity and Injection-site reactions occurred as treatment-emergent adverse events of interest."
+    },
+    {
+        "source": "Cholelithiasis",
+        "source_type": "DISEASE_DISORDER",
+        "target": "Acute cholecystitis",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CO-OCCUR",
+        "evidence": "Cholelithiasis and Acute cholecystitis occurred as treatment-emergent adverse events."
+    },
+    {
+        "source": "Diabetic retinopathy",
+        "source_type": "DISEASE_DISORDER",
+        "target": "Adjudication-confirmed pancreatitis",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "CO-OCCUR",
+        "evidence": "Diabetic retinopathy and Adjudication-confirmed pancreatitis occurred as treatment-emergent adverse events."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 106 nodes and 105 relationships.
+graph_17.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Deaths",
+        "source_type": "DISEASE_DISORDER",
+        "target": "serious adverse events",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "INCLUDED_AS",
+        "evidence": "Deaths were included as serious adverse events."
+    },
+    {
+        "source": "Deaths",
+        "source_type": "DISEASE_DISORDER",
+        "target": "discontinuations",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "INCLUDED_AS",
+        "evidence": "Deaths were included as discontinuations due to adverse event."
+    },
+    {
+        "source": "Deaths",
+        "source_type": "DISEASE_DISORDER",
+        "target": "study treatment",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "NOT_RELATED_TO",
+        "evidence": "No deaths were considered related to the study treatment by the investigator."
+    },
+    {
+        "source": "Deaths",
+        "source_type": "DISEASE_DISORDER",
+        "target": "external committee",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "ADJUDICATED_BY",
+        "evidence": "All deaths were adjudicated by an external committee of physicians with cardiology expertise."
+    },
+    {
+        "source": "adverse event",
+        "source_type": "DISEASE_DISORDER",
+        "target": "treatment-emergent adverse event",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "DEFINED_AS",
+        "evidence": "A treatment-emergent adverse event was defined as an untoward medical occurrence that emerged during the defined treatment period."
+    },
+    {
+        "source": "major adverse cardiovascular events",
+        "source_type": "DISEASE_DISORDER",
+        "target": "cardiovascular death",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "INCLUDES",
+        "evidence": "Major adverse cardiovascular events include cardiovascular death."
+    },
+    {
+        "source": "major adverse cardiovascular events",
+        "source_type": "DISEASE_DISORDER",
+        "target": "myocardial infarction",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "INCLUDES",
+        "evidence": "Major adverse cardiovascular events include myocardial infarction."
+    },
+    {
+        "source": "major adverse cardiovascular events",
+        "source_type": "DISEASE_DISORDER",
+        "target": "hospitalization due to unstable angina",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "INCLUDES",
+        "evidence": "Major adverse cardiovascular events include hospitalization due to unstable angina."
+    },
+    {
+        "source": "major adverse cardiovascular events",
+        "source_type": "DISEASE_DISORDER",
+        "target": "stroke",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "INCLUDES",
+        "evidence": "Major adverse cardiovascular events include stroke."
+    },
+    {
+        "source": "ophthalmoscopic examination",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "confirmed",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "CONFIRMED_BY",
+        "evidence": "Confirmed by ophthalmoscopic examination."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "Insulin Lispro",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "COMPARED_WITH",
+        "evidence": "Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "weight loss",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "ASSOCIATED_WITH",
+        "evidence": "This glycemic efficacy was associated with weight loss."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "clinically significant hypoglycemia",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "LOWER_RATE_OF",
+        "evidence": "This glycemic efficacy was associated with a lower rate of clinically significant hypoglycemia."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "glycemic control",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECTS_ON",
+        "evidence": "The effects of tirzepatide on glycemic control were consistent with other SURPASS trials."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "HbA1c",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "ACHIEVED_TARGET_OF",
+        "evidence": "The recommended HbA1c target of less than 7.0% was achieved by 68% of tirzepatide-treated participants."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 33 nodes and 32 relationships.
+graph_18.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin",
+        "target_type": "MEDICATION",
+        "relationship": "Treatment Relationship",
+        "evidence": "Tirzepatide treatment demonstrated reductions in basal insulin use."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "weight loss",
+        "target_type": "THERAPEUTIC_PROCEDURE",
+        "relationship": "Therapeutic Effect",
+        "evidence": "Weight loss induced by tirzepatide therapy may lead to improvement in insulin sensitivity."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "liver fat",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "Effect Relationship",
+        "evidence": "Reported effect of tirzepatide in reducing liver fat content."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "type 2 diabetes",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "Therapeutic Effect",
+        "evidence": "Sustained weight loss with tirzepatide may lead to possible remission of type 2 diabetes."
+    },
+    {
+        "source": "semaglutide",
+        "source_type": "MEDICATION",
+        "target": "insulin",
+        "target_type": "MEDICATION",
+        "relationship": "Treatment Relationship",
+        "evidence": "Semaglutide trial showed reductions in daily basal insulin use."
+    },
+    {
+        "source": "semaglutide",
+        "source_type": "MEDICATION",
+        "target": "HbA1c",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "Therapeutic Effect",
+        "evidence": "Semaglutide trial resulted in a mean change in HbA1c."
+    },
+    {
+        "source": "semaglutide",
+        "source_type": "MEDICATION",
+        "target": "weight loss",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "Therapeutic Effect",
+        "evidence": "Semaglutide trial showed mean weight loss."
+    },
+    {
+        "source": "semaglutide",
+        "source_type": "MEDICATION",
+        "target": "insulin sparing",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "Comparison",
+        "evidence": "Comparison of insulin sparing between tirzepatide and semaglutide trials."
+    },
+    {
+        "source": "weight loss",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "type 2 diabetes",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "Therapeutic Effect",
+        "evidence": "Sustained weight loss may lead to possible remission of type 2 diabetes."
+    },
+    {
+        "source": "weight loss",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "cardiovascular morbidity",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "Effect Relationship",
+        "evidence": "Weight loss could lead to improvements in cardiovascular morbidity."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 49 nodes and 48 relationships.
+graph_19.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Hypoglycemia",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "weight gain",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "COMPLICATION",
+        "evidence": "Hypoglycemia risk and the weight gain observed with complex insulin regimens"
+    },
+    {
+        "source": "insulin",
+        "source_type": "MEDICATION",
+        "target": "prandial insulin",
+        "target_type": "MEDICATION",
+        "relationship": "COMPLEX REGIMEN COMPONENT",
+        "evidence": "complex insulin regimens that include prandial insulin"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARISON",
+        "evidence": "lower with tirzepatide vs insulin lispro add-on therapy"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "HbA1c",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT ON",
+        "evidence": "despite achieving lower HbA1c levels"
+    },
+    {
+        "source": "basal insulin",
+        "source_type": "MEDICATION",
+        "target": "GLP-1 receptor agonist",
+        "target_type": "MEDICATION",
+        "relationship": "ADDITIONAL THERAPY",
+        "evidence": "reducing dose of basal insulin by 10% or 20%, only for people with HbA1c less than 8%, when adding a GLP-1 receptor agonist"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "glycemic",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EFFECT ON",
+        "evidence": "overall glycemic efficacy in the prandial lispro insulin group"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 23 nodes and 22 relationships.
+graph_20.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide Insulin",
+        "source_type": "PERSON",
+        "target": "hypoglycemia",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "TREATS",
+        "evidence": "Tirzepatide Insulin is mentioned in relation to hypoglycemia events in the text."
+    },
+    {
+        "source": "Insulin lispro",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "hypoglycemia",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "TREATS",
+        "evidence": "Insulin lispro is mentioned in relation to hypoglycemia events in the text."
+    },
+    {
+        "source": "hypoglycemia",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "severe hypoglycemia",
+        "target_type": "SEVERITY",
+        "relationship": "CAUSES",
+        "evidence": "Severe hypoglycemia events are associated with hypoglycemia in the text."
+    },
+    {
+        "source": "hypoglycemia",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "Blood glucose level less than 54 mg/dL",
+        "target_type": "LAB_VALUE",
+        "relationship": "INDICATES",
+        "evidence": "Hypoglycemia is associated with blood glucose levels less than 54 mg/dL in the text."
+    },
+    {
+        "source": "Blood glucose level less than 54 mg/dL",
+        "source_type": "LAB_VALUE",
+        "target": "severe hypoglycemia",
+        "target_type": "SEVERITY",
+        "relationship": "CAUSES",
+        "evidence": "Severe hypoglycemia events are associated with blood glucose levels less than 54 mg/dL in the text."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 111 nodes and 110 relationships.
+graph_21.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "safety analysis set",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "safety population",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "BELONGS_TO",
+        "evidence": "Data include safety follow-up using the safety analysis set from the safety population"
+    },
+    {
+        "source": "hypoglycemia",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "carbohydrate",
+        "target_type": "MEDICATION",
+        "relationship": "TREATED_WITH",
+        "evidence": "Severe hypoglycemia was defined as an episode with severe cognitive impairment requiring the assistance of another person to actively administer carbohydrate"
+    },
+    {
+        "source": "hypoglycemia",
+        "source_type": "SIGN_SYMPTOM",
+        "target": "glucagon",
+        "target_type": "THERAPEUTIC_PROCEDURE",
+        "relationship": "TREATED_WITH",
+        "evidence": "Severe hypoglycemia was defined as an episode with severe cognitive impairment requiring the assistance of another person to actively administer glucagon"
+    },
+    {
+        "source": "glucagon",
+        "source_type": "THERAPEUTIC_PROCEDURE",
+        "target": "carbohydrate",
+        "target_type": "MEDICATION",
+        "relationship": "COMBINED_WITH",
+        "evidence": "Severe hypoglycemia was defined as an episode with severe cognitive impairment requiring the assistance of another person to actively administer carbohydrate, glucagon, or other resuscitative actions"
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "Insulin Lispro",
+        "target_type": "PERSON",
+        "relationship": "COMPARED_TO",
+        "evidence": "weekly tirzepatide compared with prandial insulin as an add-onto insulin glargine demonstrated reductions in HbA1c and body weight with less hypoglycemia"
+    },
+    {
+        "source": "Insulin Lispro",
+        "source_type": "PERSON",
+        "target": "Basal Insulin",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "ADDED_TO",
+        "evidence": "Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 37 nodes and 36 relationships.
+graph_22.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "baseline HbA1c",
+        "target_type": "LAB_VALUE",
+        "relationship": "BASELINE_MEASUREMENT",
+        "evidence": "A subgroup analysis was conducted based on baseline HbA1c category"
+    },
+    {
+        "source": "baseline HbA1c",
+        "source_type": "LAB_VALUE",
+        "target": "≤8.5%",
+        "target_type": "LAB_VALUE",
+        "relationship": "BASELINE_CATEGORY",
+        "evidence": "Subgroup analysis for HbA1c based on baseline HbA1c category (≤8.5% or >8.5%)"
+    },
+    {
+        "source": "baseline HbA1c",
+        "source_type": "LAB_VALUE",
+        "target": ">8.5%",
+        "target_type": "LAB_VALUE",
+        "relationship": "BASELINE_CATEGORY",
+        "evidence": "Subgroup analysis for HbA1c based on baseline HbA1c category (≤8.5% or >8.5%)"
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "week 52",
+        "target_type": "DATE",
+        "relationship": "TIMEPOINT",
+        "evidence": "Treatment × subgroup interaction at week 52"
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "insulin dose",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "EXPLORATORY_ENDPOINT",
+        "evidence": "Exploratory endpoint - change in insulin dose"
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "HbA1c target",
+        "target_type": "LAB_VALUE",
+        "relationship": "ACHIEVEMENT",
+        "evidence": "Percentage of participants achieving an HbA1c target of 5.7% or less"
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "weight loss",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "EFFECT",
+        "evidence": "Percentage of participants with weight loss of 10% or more and weight loss of 15% or more"
+    },
+    {
+        "source": "assessment",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "adverse events",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "SAFETY_ASSESSMENT",
+        "evidence": "Safety assessments included adverse events"
+    },
+    {
+        "source": "assessment",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "treatment discontinuation",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "SAFETY_ASSESSMENT",
+        "evidence": "Safety assessments included treatment discontinuation due to adverse events"
+    },
+    {
+        "source": "assessment",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "pancreatitis",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "SAFETY_ASSESSMENT",
+        "evidence": "Safety assessments included independently adjudicated pancreatitis"
+    },
+    {
+        "source": "assessment",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "hypersensitivity reactions",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "SAFETY_ASSESSMENT",
+        "evidence": "Safety assessments included hypersensitivity reactions"
+    },
+    {
+        "source": "assessment",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "vital signs",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "SAFETY_ASSESSMENT",
+        "evidence": "Safety assessments included vital signs"
+    },
+    {
+        "source": "assessment",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "hypoglycemia events",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "SAFETY_ASSESSMENT",
+        "evidence": "Safety assessments included hypoglycemia events"
+    },
+    {
+        "source": "glucose",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "mg/dL",
+        "target_type": "LAB_VALUE",
+        "relationship": "CONVERSION",
+        "evidence": "To convert glucose from mg/dL to mmol/L, multiply values by 0.0555"
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "mmol/mol",
+        "target_type": "LAB_VALUE",
+        "relationship": "CONVERSION",
+        "evidence": "To convert HbA1c to mmol/mol, use the following equation: 10.93 × HbA1c − 23.50"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "TREATMENT_COMPARISON",
+        "evidence": "Trial comparing tirzepatide doses vs insulin lispro"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "NONINFERIORITY",
+        "evidence": "Designed to show noninferiority of tirzepatide doses vs insulin lispro"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "week 52",
+        "target_type": "DATE",
+        "relationship": "TIMEPOINT",
+        "evidence": "Randomized participants to receive tirzepatide and insulin lispro to assess change from baseline in HbA1c at week 52"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 52 nodes and 51 relationships.
+graph_23.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Dr Fernández Landó",
+        "source_type": "PERSON",
+        "target": "Mr Patel",
+        "target_type": "PERSON",
+        "relationship": "COLLABORATOR",
+        "evidence": "Dr Fernández Landó and Mr Patel had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis."
+    },
+    {
+        "source": "Dr Fernández Landó",
+        "source_type": "PERSON",
+        "target": "Patel",
+        "target_type": "PERSON",
+        "relationship": "SUPERVISOR",
+        "evidence": "Supervision: Rodbard, Tofé, Fernández Landó, Patel."
+    },
+    {
+        "source": "Dr Rosenstock",
+        "source_type": "PERSON",
+        "target": "Applied Therapeutics",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "RECEIVED_GRANTS_FROM",
+        "evidence": "Dr Rosenstock reported receiving grants from Applied Therapeutics."
+    },
+    {
+        "source": "Dr Rosenstock",
+        "source_type": "PERSON",
+        "target": "Boehringer Ingelheim",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "RECEIVED_GRANTS_FROM",
+        "evidence": "Dr Rosenstock reported receiving grants from Boehringer Ingelheim."
+    },
+    {
+        "source": "Dr Rosenstock",
+        "source_type": "PERSON",
+        "target": "Eli Lilly and Company",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "RECEIVED_GRANTS_FROM",
+        "evidence": "Dr Rosenstock reported receiving grants from Eli Lilly and Company."
+    },
+    {
+        "source": "Dr Rosenstock",
+        "source_type": "PERSON",
+        "target": "Novo Nordisk",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "RECEIVED_GRANTS_FROM",
+        "evidence": "Dr Rosenstock reported receiving grants from Novo Nordisk."
+    },
+    {
+        "source": "Dr Rosenstock",
+        "source_type": "PERSON",
+        "target": "Sanofi",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "RECEIVED_GRANTS_FROM",
+        "evidence": "Dr Rosenstock reported receiving grants from Sanofi."
+    },
+    {
+        "source": "Dr Rosenstock",
+        "source_type": "PERSON",
+        "target": "Boehringer Ingelheim",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "RECEIVED_FEES_FROM",
+        "evidence": "Dr Rosenstock reported receiving personal fees from Boehringer Ingelheim."
+    },
+    {
+        "source": "Dr Rosenstock",
+        "source_type": "PERSON",
+        "target": "Eli Lilly and Company",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "RECEIVED_FEES_FROM",
+        "evidence": "Dr Rosenstock reported receiving personal fees from Eli Lilly and Company."
+    },
+    {
+        "source": "Dr Rosenstock",
+        "source_type": "PERSON",
+        "target": "Novo Nordisk",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "RECEIVED_FEES_FROM",
+        "evidence": "Dr Rosenstock reported receiving personal fees from Novo Nordisk."
+    },
+    {
+        "source": "Dr Rosenstock",
+        "source_type": "PERSON",
+        "target": "Sanofi",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "RECEIVED_FEES_FROM",
+        "evidence": "Dr Rosenstock reported receiving personal fees from Sanofi."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 42 nodes and 41 relationships.
+graph_24.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Dr Frias",
+        "source_type": "PERSON",
+        "target": "Eli Lilly and Company",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Received grants from",
+        "evidence": "Dr Frias reported receiving grants from Eli Lilly and Company paid to his institution during the conduct of the study"
+    },
+    {
+        "source": "Dr Frias",
+        "source_type": "PERSON",
+        "target": "Boehringer Ingelheim",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Received personal fees from",
+        "evidence": "Dr Frias reported receiving personal fees from Boehringer Ingelheim outside the submitted work"
+    },
+    {
+        "source": "Dr Frias",
+        "source_type": "PERSON",
+        "target": "Pfizer",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "Received nonfinancial support from",
+        "evidence": "Dr Frias reported receiving grants, personal fees, or nonfinancial support from Pfizer outside the submitted work"
+    },
+    {
+        "source": "Dr Rodbard",
+        "source_type": "PERSON",
+        "target": "Eli Lilly and Company",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Received grants from",
+        "evidence": "Dr Rodbard reported receiving grants from Eli Lilly and Company during the conduct of the study"
+    },
+    {
+        "source": "Dr Rodbard",
+        "source_type": "PERSON",
+        "target": "Novo Nordisk",
+        "target_type": "PERSON",
+        "relationship": "Received grants from",
+        "evidence": "Dr Rodbard reported receiving grants from Novo Nordisk outside the submitted work"
+    },
+    {
+        "source": "Dr Rodbard",
+        "source_type": "PERSON",
+        "target": "Sanofi",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "Received personal fees from",
+        "evidence": "Dr Rodbard reported receiving personal fees from Sanofi outside the submitted work"
+    },
+    {
+        "source": "Dr Tofé",
+        "source_type": "PERSON",
+        "target": "Eli Lilly and Company",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Received personal and research fees from",
+        "evidence": "Dr Tofé reported receiving personal and research fees from Eli Lilly and Company during the conduct of the study"
+    },
+    {
+        "source": "Ms Sears",
+        "source_type": "PERSON",
+        "target": "Eli Lilly and Company",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Employee of",
+        "evidence": "Ms Sears reported being an employee of and shareholder in Eli Lilly and Company during the conduct of the study"
+    },
+    {
+        "source": "Dr Huh",
+        "source_type": "PERSON",
+        "target": "Eli Lilly and Company",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Employee of",
+        "evidence": "Dr Huh reported being an employee of and shareholder in Eli Lilly and Company during the conduct of the study"
+    },
+    {
+        "source": "Dr Fernández Landó",
+        "source_type": "PERSON",
+        "target": "Eli Lilly and Company",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Received personal fees from",
+        "evidence": "Dr Fernández Landó reported owning stock in and receiving personal fees from Eli Lilly and Company as an employee during the conduct of the study"
+    },
+    {
+        "source": "Mr Patel",
+        "source_type": "PERSON",
+        "target": "Eli Lilly and Company",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Received personal fees from",
+        "evidence": "Mr Patel reported receiving personal fees from and owning stock in Eli Lilly and Company during the conduct of the study"
+    },
+    {
+        "source": "Mr Patel",
+        "source_type": "PERSON",
+        "target": "US 9,474,780 B2",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "Holding a patent for",
+        "evidence": "Mr Patel reported having a patent for US 9,474,780 B2 issued"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 46 nodes and 45 relationships.
+graph_25.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Study",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "Eli Lilly and Company",
+        "target_type": "ORG",
+        "relationship": "SPONSORED_BY",
+        "evidence": "This study was sponsored by Eli Lilly and Company."
+    },
+    {
+        "source": "Eli Lilly and Company",
+        "source_type": "ORG",
+        "target": "Study",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "SPONSORED_STUDY",
+        "evidence": "Eli Lilly and Company was involved in the study design and conduct; data collection, management, analyses, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication."
+    },
+    {
+        "source": "Eli Lilly and Company",
+        "source_type": "ORG",
+        "target": "Chrisanthi A. Karanikas",
+        "target_type": "PERSON",
+        "relationship": "EMPLOYED",
+        "evidence": "We thank Chrisanthi A. Karanikas, MS, for her medical writing and editing assistance with the manuscript, for which she was compensated as part of her salary as an employee of Eli Lilly and Company."
+    },
+    {
+        "source": "Chrisanthi A. Karanikas",
+        "source_type": "PERSON",
+        "target": "MS",
+        "target_type": "GPE",
+        "relationship": "EMPLOYEE_OF",
+        "evidence": "We thank Chrisanthi A. Karanikas, MS, for her medical writing and editing assistance with the manuscript, for which she was compensated as part of her salary as an employee of Eli Lilly and Company."
+    },
+    {
+        "source": "Study",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "American Diabetes Association",
+        "target_type": "ORG",
+        "relationship": "PRESENTED_AT",
+        "evidence": "Presented in part at the 83rd Scientific Sessions of the American Diabetes Association (June 23-26, 2023)."
+    },
+    {
+        "source": "Study",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "European Association for the Study of Diabetes 59th",
+        "target_type": "ORG",
+        "relationship": "PRESENTED_AT",
+        "evidence": "Presented in part at the European Association for the Study of Diabetes 59th Annual Meeting; October 2-6, 2023; Hamburg, Germany."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 18 nodes and 17 relationships.
+graph_26.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "GLP-1",
+        "source_type": "MEDICATION",
+        "target": "insulin",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "added to",
+        "evidence": "GLP-1 receptor agonist added to insulin therapy"
+    },
+    {
+        "source": "GLP-1",
+        "source_type": "MEDICATION",
+        "target": "basal-plus insulin",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "added to",
+        "evidence": "GLP-1 receptor agonist added to basal-plus insulin therapy"
+    },
+    {
+        "source": "GLP-1",
+        "source_type": "MEDICATION",
+        "target": "basal-bolus insulin",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "added to",
+        "evidence": "GLP-1 receptor agonist added to basal-bolus insulin therapy"
+    },
+    {
+        "source": "American Diabetes Association",
+        "source_type": "ORG",
+        "target": "2023;46(suppl 1):s1-s291",
+        "target_type": "CARDINAL",
+        "relationship": "publishes",
+        "evidence": "American Diabetes Association publishes standards of care in diabetes in 2023"
+    },
+    {
+        "source": "Yu M",
+        "source_type": "PERSON",
+        "target": "Landó LF",
+        "target_type": "ORG",
+        "relationship": "collaborates with",
+        "evidence": "Yu M collaborates with Landó LF"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 25 nodes and 24 relationships.
+graph_27.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "semaglutide",
+        "source_type": "MEDICATION",
+        "target": "insulin aspart",
+        "target_type": "MEDICATION",
+        "relationship": "ADD-ON TREATMENT",
+        "evidence": "Effect of once-weekly semaglutide versus thrice-daily insulin aspart, both as add-on to metformin and optimized insulin glargine treatment in participants with type 2 diabetes"
+    },
+    {
+        "source": "insulin aspart",
+        "source_type": "MEDICATION",
+        "target": "metformin",
+        "target_type": "MEDICATION",
+        "relationship": "COMBINED TREATMENT",
+        "evidence": "Effect of once-weekly semaglutide versus thrice-daily insulin aspart, both as add-on to metformin and optimized insulin glargine treatment in participants with type 2 diabetes"
+    },
+    {
+        "source": "insulin aspart",
+        "source_type": "MEDICATION",
+        "target": "optimized insulin glargine",
+        "target_type": "MEDICATION",
+        "relationship": "COMBINED TREATMENT",
+        "evidence": "Effect of once-weekly semaglutide versus thrice-daily insulin aspart, both as add-on to metformin and optimized insulin glargine treatment in participants with type 2 diabetes"
+    },
+    {
+        "source": "type 2 diabetes",
+        "source_type": "DISEASE_DISORDER",
+        "target": "insulin secretion",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "INVOLVED IN",
+        "evidence": "Abnormal patterns of insulin secretion in non-insulin-dependent diabetes mellitus"
+    },
+    {
+        "source": "beta-cell dysfunction",
+        "source_type": "DISEASE_DISORDER",
+        "target": "progression to diabetes",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "PROGRESSION TO",
+        "evidence": "Five stages of evolving beta-cell dysfunction during progression to diabetes"
+    },
+    {
+        "source": "dual GIP and GLP-1 receptor agonist tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "type 2 diabetes",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "TREATMENT FOR",
+        "evidence": "Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 54 nodes and 53 relationships.
+graph_28.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "semaglutide",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARISON",
+        "evidence": "Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin degludec",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARISON",
+        "evidence": "Once-weekly tirzepatide versus once-daily insulin degludec as add-on to metformin with or without SGLT2 inhibitors in patients with type 2 diabetes."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin glargine",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARISON",
+        "evidence": "Tirzepatide versus insulin glargine in type 2 diabetes and increased cardiovascular risk."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin glargine",
+        "target_type": "MEDICATION",
+        "relationship": "EFFECT",
+        "evidence": "Effect of subcutaneous tirzepatide vs placebo added to titrated insulin glargine on glycemic control in patients with type 2 diabetes."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 49 nodes and 48 relationships.
+graph_29.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin degludec",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED",
+        "evidence": "Effect of tirzepatide versus insulin degludec on liver fat content and abdominal adipose tissue in people with type 2 diabetes"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "liver fat",
+        "target_type": "BIOLOGICAL_STRUCTURE",
+        "relationship": "AFFECTS",
+        "evidence": "Effect of tirzepatide versus insulin degludec on liver fat content and abdominal adipose tissue in people with type 2 diabetes"
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "abdominal adipose tissue",
+        "target_type": "BIOLOGICAL_STRUCTURE",
+        "relationship": "AFFECTS",
+        "evidence": "Effect of tirzepatide versus insulin degludec on liver fat content and abdominal adipose tissue in people with type 2 diabetes"
+    },
+    {
+        "source": "insulin degludec",
+        "source_type": "MEDICATION",
+        "target": "type 2 diabetes",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "TREATS",
+        "evidence": "Effect of tirzepatide versus insulin degludec on liver fat content and abdominal adipose tissue in people with type 2 diabetes"
+    },
+    {
+        "source": "insulin degludec",
+        "source_type": "MEDICATION",
+        "target": "liver fat",
+        "target_type": "BIOLOGICAL_STRUCTURE",
+        "relationship": "AFFECTS",
+        "evidence": "Effect of tirzepatide versus insulin degludec on liver fat content and abdominal adipose tissue in people with type 2 diabetes"
+    },
+    {
+        "source": "insulin degludec",
+        "source_type": "MEDICATION",
+        "target": "abdominal adipose tissue",
+        "target_type": "BIOLOGICAL_STRUCTURE",
+        "relationship": "AFFECTS",
+        "evidence": "Effect of tirzepatide versus insulin degludec on liver fat content and abdominal adipose tissue in people with type 2 diabetes"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 58 nodes and 57 relationships.
+graph_30.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "adverse events",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "treatment discontinuation",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "CAUSES",
+        "evidence": "Safety assessments included adverse events, treatment discontinuation due to adverse events."
+    },
+    {
+        "source": "adverse events",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "pancreatitis",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSES",
+        "evidence": "Safety assessments included independently adjudicated pancreatitis."
+    },
+    {
+        "source": "adverse events",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "hypersensitivity reactions",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSES",
+        "evidence": "Safety assessments included hypersensitivity reactions."
+    },
+    {
+        "source": "adverse events",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "hypoglycemia events",
+        "target_type": "SIGN_SYMPTOM",
+        "relationship": "CAUSES",
+        "evidence": "Safety assessments included hypoglycemia events."
+    },
+    {
+        "source": "glucose",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "mg/dL",
+        "target_type": "LAB_VALUE",
+        "relationship": "CONVERSION",
+        "evidence": "To convert glucose from mg/dL to mmol/L, multiply values by 0.0555."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "mmol/mol",
+        "target_type": "LAB_VALUE",
+        "relationship": "CONVERSION",
+        "evidence": "To convert HbA1c to mmol/mol, use the following equation: 10.93 × HbA1c − 23.50."
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED_TO",
+        "evidence": "Participants were randomized in a 1:1:1:3 ratio to receive 5-mg, 10-mg, or 15-mg tirzepatide, and insulin lispro."
+    },
+    {
+        "source": "tirzepatide dose",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED_TO",
+        "evidence": "The trial was designed to show noninferiority of each tirzepatide dose vs insulin lispro with respect to change in HbA1c."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 41 nodes and 40 relationships.
+graph_31.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "treatment-regimen estimand",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "tirzepatide",
+        "target_type": "MEDICATION",
+        "relationship": "EVALUATES_TREATMENT_EFFECT",
+        "evidence": "The treatment-regimen estimand evaluated the treatment effect of tirzepatide relative to insulin lispro."
+    },
+    {
+        "source": "treatment-regimen estimand",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "CONTROL_GROUP",
+        "evidence": "The treatment-regimen estimand evaluated the treatment effect of tirzepatide relative to insulin lispro."
+    },
+    {
+        "source": "treatment-regimen estimand",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "adherence to investigational product or introduction of rescue therapy",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "DOES_NOT_DEPEND_ON",
+        "evidence": "The treatment-regimen estimand evaluated the treatment effect of tirzepatide relative to insulin lispro irrespective of adherence to investigational product or introduction of rescue therapy."
+    },
+    {
+        "source": "analysis of covariance",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "treatment period",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "USES_DATA_FROM",
+        "evidence": "Statistical models used data during the treatment period regardless of treatment adherence or use of rescue therapy."
+    },
+    {
+        "source": "analysis of covariance",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "baseline metformin use",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "INCLUDES_AS_FIXED_EFFECT",
+        "evidence": "For continuous endpoints, an analysis of covariance model with treatment, country, baseline metformin use, and baseline HbA1c as fixed effects was used."
+    },
+    {
+        "source": "analysis of covariance",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "baseline HbA1c",
+        "target_type": "DIAGNOSTIC_PROCEDURE",
+        "relationship": "INCLUDES_AS_FIXED_EFFECT",
+        "evidence": "For continuous endpoints, an analysis of covariance model with treatment, country, baseline metformin use, and baseline HbA1c as fixed effects was used."
+    },
+    {
+        "source": "analysis of covariance",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "baseline end point value",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "INCLUDES_AS_COVARIATE",
+        "evidence": "For continuous endpoints, an analysis of covariance model with baseline end point value as a covariate was used."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 22 nodes and 21 relationships.
+graph_32.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "logistic",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "regression",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "USED_IN",
+        "evidence": "Logistic regression was used with fixed effects and covariate as continuous end points."
+    },
+    {
+        "source": "logistic",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "regression",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "USED_IN",
+        "evidence": "Logistic regression was used with the same factors and covariate as continuous end points."
+    },
+    {
+        "source": "logistic",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "regression",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "USED_IN",
+        "evidence": "Logistic regression was used with the same factors and covariate as continuous end points."
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED_TO",
+        "evidence": "The efficacy estimand evaluated the treatment effect of tirzepatide treatments relative to insulin lispro."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "≤8.5%",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_VALUE",
+        "evidence": "Baseline HbA1c category was defined as ≤8.5%."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": ">8.5%",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_VALUE",
+        "evidence": "Baseline HbA1c category was defined as >8.5%."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 22 nodes and 21 relationships.
+graph_33.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "Insulin Lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED_WITH",
+        "evidence": "Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes"
+    },
+    {
+        "source": "Insulin Lispro",
+        "source_type": "MEDICATION",
+        "target": "Basal Insulin",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "ADDED_TO",
+        "evidence": "Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes"
+    },
+    {
+        "source": "Type 2 Diabetes",
+        "source_type": "DISEASE_DISORDER",
+        "target": "Insulin Lispro",
+        "target_type": "MEDICATION",
+        "relationship": "TREATED_WITH",
+        "evidence": "Tirzepatide vs Insulin Lispro Added to Basal Insulin in Type 2 Diabetes"
+    },
+    {
+        "source": "November 7",
+        "source_type": "DATE",
+        "target": "2023",
+        "target_type": "DATE",
+        "relationship": "PUBLICATION_DATE",
+        "evidence": "JAMA November 7, 2023 Volume 330, Number 17 1633"
+    },
+    {
+        "source": "October 19, 2020",
+        "source_type": "DATE",
+        "target": "November 1, 2022",
+        "target_type": "DATE",
+        "relationship": "TRIAL_PERIOD",
+        "evidence": "This trial was conducted between October 19, 2020, and November 1, 2022"
+    },
+    {
+        "source": "clinical charac",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "similar",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "SIMILARITY",
+        "evidence": "Baseline demographics and clinical characteristics were similar across groups"
+    },
+    {
+        "source": "body weight",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "90.5 kg",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_VALUE",
+        "evidence": "mean body weight, 90.5 kg"
+    },
+    {
+        "source": "fasting serum glucose",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "157 mg/dL",
+        "target_type": "LAB_VALUE",
+        "relationship": "HAS_VALUE",
+        "evidence": "mean fasting serum glucose, 157 mg/dL"
+    },
+    {
+        "source": "insulin glargine",
+        "source_type": "MEDICATION",
+        "target": "46 IU/d",
+        "target_type": "DOSAGE",
+        "relationship": "DOSED_AT",
+        "evidence": "median insulin glargine dose, 46 IU/d"
+    },
+    {
+        "source": "participants",
+        "source_type": "CARDINAL",
+        "target": "Black",
+        "target_type": "ORG",
+        "relationship": "REPRESENTED_BY",
+        "evidence": "13% of participants were Black"
+    },
+    {
+        "source": "participants",
+        "source_type": "CARDINAL",
+        "target": "Hispanic",
+        "target_type": "NORP",
+        "relationship": "REPRESENTED_BY",
+        "evidence": "53% of participants were Hispanic"
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 57 nodes and 56 relationships.
+graph_34.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "89%",
+        "source_type": "LAB_VALUE",
+        "target": "participants",
+        "target_type": "PERSON",
+        "relationship": "COMPLETED_TRIAL_TREATMENT",
+        "evidence": "A total of 89% of participants completed trial treatment."
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "treatment discontinuation",
+        "target_type": "EVENT",
+        "relationship": "CAUSE_OF_DISCONTINUATION",
+        "evidence": "The leading cause of premature treatment discontinuation with tirzepatide was adverse events (mainly gastrointestinal)."
+    },
+    {
+        "source": "tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARISON_WITH_MEDICATION",
+        "evidence": "The pooled tirzepatide group demonstrated a mean change in HbA1c of -2.1% vs -1.1% with insulin lispro."
+    },
+    {
+        "source": "HbA1c",
+        "source_type": "DIAGNOSTIC_PROCEDURE",
+        "target": "week 52",
+        "target_type": "DATE",
+        "relationship": "MEAN_CHANGE",
+        "evidence": "At week 52, the mean HbA1c was 6.7% vs 7.7%."
+    },
+    {
+        "source": "5-mg tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "baseline HbA1c",
+        "target_type": "LAB_VALUE",
+        "relationship": "MEAN_CHANGE",
+        "evidence": "At week 52, from a baseline HbA1c of 8.8%, the mean change in HbA1c was -1.9% with 5-mg tirzepatide."
+    },
+    {
+        "source": "10-mg tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "baseline HbA1c",
+        "target_type": "LAB_VALUE",
+        "relationship": "MEAN_CHANGE",
+        "evidence": "At week 52, from a baseline HbA1c of 8.8%, the mean change in HbA1c was -2.2% with 10-mg tirzepatide."
+    },
+    {
+        "source": "15-mg tirzepatide",
+        "source_type": "MEDICATION",
+        "target": "baseline HbA1c",
+        "target_type": "LAB_VALUE",
+        "relationship": "MEAN_CHANGE",
+        "evidence": "At week 52, from a baseline HbA1c of 8.8%, the mean change in HbA1c was -2.3% with 15-mg tirzepatide."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 40 nodes and 39 relationships.
+graph_35.csv
+Raw OpenAI Response: ```json
+[
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "type 2 diabetes",
+        "target_type": "DISEASE_DISORDER",
+        "relationship": "IS_USED_FOR",
+        "evidence": "Tirzepatide was statistically superior in the treatment of type 2 diabetes."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "insulin lispro",
+        "target_type": "MEDICATION",
+        "relationship": "COMPARED_WITH",
+        "evidence": "Participants were randomized to receive Tirzepatide or insulin lispro."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "15-mg",
+        "target_type": "DOSAGE",
+        "relationship": "HAS_DOSAGE",
+        "evidence": "Participants were randomized to receive 15-mg of Tirzepatide."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "10-mg",
+        "target_type": "DOSAGE",
+        "relationship": "HAS_DOSAGE",
+        "evidence": "Participants were randomized to receive 10-mg of Tirzepatide."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "5-mg",
+        "target_type": "DOSAGE",
+        "relationship": "HAS_DOSAGE",
+        "evidence": "Participants were randomized to receive 5-mg of Tirzepatide."
+    },
+    {
+        "source": "Tirzepatide",
+        "source_type": "DETAILED_DESCRIPTION",
+        "target": "study drug",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "INVOLVED_IN",
+        "evidence": "Participants were either included in the primary analysis or discontinued the study drug."
+    },
+    {
+        "source": "insulin lispro",
+        "source_type": "MEDICATION",
+        "target": "Tirzepatide",
+        "target_type": "DETAILED_DESCRIPTION",
+        "relationship": "COMPARED_WITH",
+        "evidence": "Participants were randomized to receive insulin lispro or Tirzepatide."
+    }
+]
+```
+Error in extracting relationships: Expecting value: line 1 column 1 (char 0)
+Graph created with 59 nodes and 58 relationships.
+graph_36.csv

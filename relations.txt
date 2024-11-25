@@ -1,0 +1,109 @@
+Neo4j database cleared successfully.
+
+Graph created with 62 nodes and 61 relationships.
+graph_1.csv
+
+Graph created with 18 nodes and 17 relationships.
+graph_2.csv
+
+Graph created with 56 nodes and 55 relationships.
+graph_3.csv
+
+Graph created with 46 nodes and 45 relationships.
+graph_4.csv
+
+Graph created with 29 nodes and 28 relationships.
+graph_5.csv
+
+Graph created with 212 nodes and 211 relationships.
+graph_6.csv
+
+Graph created with 39 nodes and 38 relationships.
+graph_7.csv
+
+Graph created with 81 nodes and 80 relationships.
+graph_8.csv
+
+Graph created with 19 nodes and 18 relationships.
+graph_9.csv
+
+Graph created with 13 nodes and 12 relationships.
+graph_10.csv
+
+Graph created with 60 nodes and 59 relationships.
+graph_11.csv
+
+Graph created with 51 nodes and 50 relationships.
+graph_12.csv
+
+Graph created with 37 nodes and 36 relationships.
+graph_13.csv
+
+Graph created with 129 nodes and 128 relationships.
+graph_14.csv
+
+Graph created with 59 nodes and 58 relationships.
+graph_15.csv
+
+Graph created with 87 nodes and 86 relationships.
+graph_16.csv
+
+Graph created with 106 nodes and 105 relationships.
+graph_17.csv
+
+Graph created with 33 nodes and 32 relationships.
+graph_18.csv
+
+Graph created with 49 nodes and 48 relationships.
+graph_19.csv
+
+Graph created with 23 nodes and 22 relationships.
+graph_20.csv
+
+Graph created with 111 nodes and 110 relationships.
+graph_21.csv
+
+Graph created with 37 nodes and 36 relationships.
+graph_22.csv
+
+Graph created with 52 nodes and 51 relationships.
+graph_23.csv
+
+Graph created with 42 nodes and 41 relationships.
+graph_24.csv
+
+Graph created with 46 nodes and 45 relationships.
+graph_25.csv
+
+Graph created with 18 nodes and 17 relationships.
+graph_26.csv
+
+Graph created with 25 nodes and 24 relationships.
+graph_27.csv
+
+Graph created with 54 nodes and 53 relationships.
+graph_28.csv
+
+Graph created with 49 nodes and 48 relationships.
+graph_29.csv
+
+Graph created with 58 nodes and 57 relationships.
+graph_30.csv
+
+Graph created with 41 nodes and 40 relationships.
+graph_31.csv
+
+Graph created with 22 nodes and 21 relationships.
+graph_32.csv
+
+Graph created with 22 nodes and 6 relationships.
+graph_33.csv
+
+Graph created with 57 nodes and 56 relationships.
+graph_34.csv
+
+Graph created with 40 nodes and 39 relationships.
+graph_35.csv
+
+Graph created with 59 nodes and 58 relationships.
+graph_36.csv
