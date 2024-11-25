@@ -28,3 +28,6 @@ docker run \
 From here, you can open the db at http://localhost:7474/. On this page, you will be asked to sign in. Use the default username/password of neo4j and neo4j.
 
 Once you login for the first time, you will be asked to change the password.
+
+## Relationship
+![](images/relates_to.png)
