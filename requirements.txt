@@ -1,0 +1,7 @@
+matplotlib==3.9.2
+neo4j==5.26.0
+networkx==3.4.2
+openai==1.55.0
+python-dotenv==1.0.1
+spacy==3.8.2
+transformers==4.46.3
