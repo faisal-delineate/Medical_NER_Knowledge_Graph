@@ -31,5 +31,7 @@ Once you login for the first time, you will be asked to change the password.
 
 ## Relationship
 ![](images/main.png)
+
 ![](images/compared_with.png)
-![](images/effect_on.png.png)
+
+![](images/effect_on.png)
