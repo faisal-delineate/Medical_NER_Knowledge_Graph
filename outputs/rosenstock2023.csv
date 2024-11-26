@@ -1,0 +1,18 @@
+No.,QUESTIONS,LEVEL,ANSWERS,REFERENCES
+1,What formula is used for eGFR calculation?,Easy,"ChronicKidney
+ DiseaseEpidemiologyCollaboration
+ equation)",Table 1
+2,How many participants experienced nausea in this study?,Easy,20,Table 3
+3,What is the mean age of the insulin lispro group?,Easy,59,Table 1
+4,What was the primary outcome of the study?,Easy,HbA1c,Abstract
+5,What does each box in plot Fig 2A represent?,Easy,Interquartile range,Description of the graph
+6,"What was the dosing regimen of Tirzepatide in week 1 and week 52, respectively?",Medium,"In week 1 Tirzepatide dose was started as 2.5 mg for all the three groups once weekly. Randomised dose like 5mg, 10mg, 15mg was achieved for respective groups after 52 weeks.",In Methods part (Intervention)
+7,What was the mean baseline body weight value used here?,Medium,91 kg,Fig 2 A
+8,What is the COV_VAR_STAT of eGFR from Table 1?,Medium,SD,Table 1
+9,What is the percentage of participants with type 2 DM in this paper?,Medium,100,Methods (Participants)
+10,Which group showed the highest incidence of emergent adverse events?,Medium,All groups had different ADRs that sums upto 100%,Table 3
+11,What is the DV_STAT of Fig 2A?,Hard,Median,Description of the graph
+12,How many patients did not experience ?1 serious adverse event in the Tirzepatide 15mg group?,Hard,221,Table 3
+13,What is the mean insulin glargine dose at week 52?,Hard,"(geometric mean daily insulinglargine dose at week 52: pooled tirzepatide,13IU[0.15IU/kg]; 5-mg tirzepatide, 20IU [0.24IU/kg];10-mg tirzepatide, 12IU[0.15IU/kg]; 15-mg tirz epatide, 8IU[0.10IU/kg])",In Results part ( Additional Secondary and Exploratory End points). Below the graph
+14,"What is the percentage of participants included in the study from the White race and other races, respectively, in the 5mg Tirzepatide group (White race + Other race should sum up to 100)?",Hard,94.7 + 5.3 (White + Other races),Table 1
+15,What are the other anti-diabetic medications used with Tirzepatide in this study?,Hard,"Metformin, Insulin Glargine, Insulin Lispro",Table 1
