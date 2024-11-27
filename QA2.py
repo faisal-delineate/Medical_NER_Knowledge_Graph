@@ -1,11 +1,12 @@
 import os
 from dotenv import load_dotenv
 from neo4j import GraphDatabase
+from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 from typing import List, Optional
 import logging
 from langchain_openai import ChatOpenAI
-from configurations import ENTITIES, ALL_RELATIONS
 import pandas as pd
+from configurations import ENTITIES, ALL_RELATIONS
 
 logging.basicConfig(
     level=logging.INFO,
@@ -19,11 +20,20 @@ class QSPGraphQA:
         self.neo4j_username = neo4j_username
         self.neo4j_password = neo4j_password
 
+        # Initialize LLM
         self.llm = ChatOpenAI(
             temperature=0.5,
-            model="gpt-4o",
+            model="gpt-3.5-turbo",
             api_key=openai_api_key
         )
+
+        # Initialize NER Model
+        model_name = "Clinical-AI-Apollo/Medical-NER"
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.ner_model = AutoModelForTokenClassification.from_pretrained(model_name)
+        self.ner_pipeline = pipeline("ner", model=self.ner_model, tokenizer=self.tokenizer, grouped_entities=True)
+
+        # Neo4j Driver
         self.driver = None
         self.session = None
 
@@ -49,17 +59,34 @@ class QSPGraphQA:
             self.driver.close()
         logger.info("Neo4j connection closed")
 
+    def extract_entities_and_relationships(self, question: str) -> (List[str], List[str]):
+        """Extract entities and relationships from the question."""
+        entities = []
+        relationships = []
+
+        # Extract entities using the NER model
+        ner_results = self.ner_pipeline(question)
+        for result in ner_results:
+            entities.append(result['word'])
+
+        # Extract relationships from keywords in ALL_RELATIONS
+        for relationship in ALL_RELATIONS:
+            if relationship.lower() in question.lower():
+                relationships.append(relationship)
+
+        return list(set(entities)), list(set(relationships))
+
     def query(self, question: str) -> str:
-        """Enhanced question answering method with dynamic entity and relationship matching."""
+        """Answer questions using Neo4j data and LLM."""
         if not self.session:
             logger.error("No active Neo4j session")
             return "Database connection is not established."
 
         try: 
-            entities = ENTITIES
-            relationships = ALL_RELATIONS
+            # Extract entities and relationships
+            entities, relationships = self.extract_entities_and_relationships(question)
 
-            # Prepare a Cypher query dynamically based on known entities and relationships
+            # Prepare Cypher query dynamically
             cypher_query = """
             MATCH (e1)-[r]->(e2)
             WHERE 
@@ -116,14 +143,15 @@ def main():
     neo4j_username = "neo4j"
     neo4j_password = "123456789"
 
-    qsp_path='outputs/Paper_16_Evaluation.csv'
-    qsp_df=pd.read_csv(qsp_path)
-    all_questions=list(qsp_df['Question'])
-    all_answers=[]
+    qsp_path = 'outputs/Paper_16_Evaluation.csv'
+    qsp_df = pd.read_csv(qsp_path)
+    all_questions = list(qsp_df['Question'])
+    all_answers = []
 
     if not openai_api_key or not neo4j_password:
         print("Error: Missing OpenAI or Neo4j credentials")
         return
+
     qa_system = QSPGraphQA(
         neo4j_uri=neo4j_uri,
         neo4j_username=neo4j_username,
@@ -137,15 +165,15 @@ def main():
                 response = qa_system.query(question)
                 print(f"Response: {response}")
                 all_answers.append(response)
-
         finally:
             qa_system.close()
     else:
         print("Failed to connect to Neo4j")
 
-    print('all_answers: ',all_answers)
-    qsp_df['NER_MODEL_ANSWER']=all_answers
-    qsp_df.to_csv('outputs/result_paper_16.csv',index=False)
+    print('All answers: ', all_answers)
+    qsp_df['NER_MODEL_ANSWER'] = all_answers
+    qsp_df.to_csv('outputs/result_paper_16.csv', index=False)
+
 
 if __name__ == "__main__":
     main()
