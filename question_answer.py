@@ -50,15 +50,16 @@ class QSPGraphQA:
         logger.info("Neo4j connection closed")
 
     def query(self, question: str) -> str:
-        """Enhanced question answering method with entity and relationship matching."""
+        """Enhanced question answering method with dynamic entity and relationship matching."""
         if not self.session:
             logger.error("No active Neo4j session")
             return "Database connection is not established."
 
         try: 
-            entities=ENTITIES
-            relationships=ALL_RELATIONS
+            entities = ENTITIES
+            relationships = ALL_RELATIONS
 
+            # Prepare a Cypher query dynamically based on known entities and relationships
             cypher_query = """
             MATCH (e1)-[r]->(e2)
             WHERE 
@@ -71,21 +72,33 @@ class QSPGraphQA:
             result = self.session.run(cypher_query, {"entities": entities, "relationships": relationships})
             records = list(result)
 
+            # Handle no records found
             if not records:
-                return f"No matching entities or relationships found for the question: {question}"
+                logger.info("No matching entities or relationships found for the question")
+                return f"No relevant graph data found to answer the question: {question}"
 
-            response = "\n".join([
+            # Format retrieved records
+            graph_data = "\n".join([
                 f"{record['Entity1']} -[{record['Relationship']}]-> {record['Entity2']}"
                 for record in records
             ])
+
+            # Enhance the prompt for the LLM
             prompt = f"""
-            Based on the following graph data, answer the question "{question}" comprehensively:
+            You are an expert in analyzing graph databases. Below is a set of relationships retrieved from the database, 
+            formatted as "Entity1 -[Relationship]-> Entity2". Use this data to comprehensively answer the user's question.
+
+            Question: {question}
 
             Graph Data:
-            {response}
+            {graph_data}
+
+            If you cannot find a direct answer, analyze the data to provide a plausible inference or explanation. 
+            Be concise and accurate in your response.
 
             Answer:
             """
+            # Use the LLM to process the prompt
             refined_response = self.llm.invoke(prompt).content
 
             return refined_response
@@ -93,6 +106,7 @@ class QSPGraphQA:
         except Exception as e:
             logger.error(f"Query processing error: {e}")
             return f"An error occurred while processing the question: {e}"
+
 
 def main():
     # Load environment variables
