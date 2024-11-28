@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from neo4j import GraphDatabase
-from typing import List, Optional
+from typing import List
 import logging
 from langchain_openai import ChatOpenAI
 from configurations import ENTITIES, ALL_RELATIONS
@@ -31,35 +31,37 @@ class QSPGraphQA:
         """Establish connection to Neo4j database."""
         try:
             self.driver = GraphDatabase.driver(
-                self.neo4j_uri, 
+                self.neo4j_uri,
                 auth=(self.neo4j_username, self.neo4j_password)
             )
             self.session = self.driver.session()
-            logger.info("Successfully connected to Neo4j")
+            logger.info("Successfully connected to Neo4j.")
             return True
         except Exception as e:
-            logger.error(f"Neo4j connection failed: {e}")
+            logger.error(f"Failed to connect to Neo4j: {e}")
             return False
 
     def close(self):
         """Close Neo4j database connection."""
         if self.session:
             self.session.close()
+            self.session = None
         if self.driver:
             self.driver.close()
-        logger.info("Neo4j connection closed")
+            self.driver = None
+        logger.info("Neo4j connection closed.")
 
     def query(self, question: str) -> str:
-        """Enhanced question answering method with dynamic entity and relationship matching."""
+        """Enhanced question answering method using Neo4j data."""
         if not self.session:
-            logger.error("No active Neo4j session")
+            logger.error("No active Neo4j session.")
             return "Database connection is not established."
 
-        try: 
-            entities = ENTITIES
-            relationships = ALL_RELATIONS
+        try:
+            entities = ENTITIES or []
+            relationships = ALL_RELATIONS or []
 
-            # Prepare a Cypher query dynamically based on known entities and relationships
+            # Dynamic Cypher query
             cypher_query = """
             MATCH (e1)-[r]->(e2)
             WHERE 
@@ -72,39 +74,30 @@ class QSPGraphQA:
             result = self.session.run(cypher_query, {"entities": entities, "relationships": relationships})
             records = list(result)
 
-            # Handle no records found
             if not records:
-                logger.info("No matching entities or relationships found for the question")
-                return f"No relevant graph data found to answer the question: {question}"
+                logger.info("No matching entities or relationships found.")
+                return f"No relevant data for the question: {question}"
 
-            # Format retrieved records
             graph_data = "\n".join([
                 f"{record['Entity1']} -[{record['Relationship']}]-> {record['Entity2']}"
                 for record in records
             ])
 
-            # Enhance the prompt for the LLM
             prompt = f"""
-            You are an expert in analyzing graph databases. Below is a set of relationships retrieved from the database, 
-            formatted as "Entity1 -[Relationship]-> Entity2". Use this data to comprehensively answer the user's question.
+            Based on the following graph data, answer the user's question as concisely as possible:
 
             Question: {question}
 
             Graph Data:
             {graph_data}
 
-            If you cannot find a direct answer, analyze the data to provide a plausible inference or explanation. 
-            Be concise and accurate in your response.
-
             Answer:
             """
-            # Use the LLM to process the prompt
-            refined_response = self.llm.invoke(prompt).content
-
+            refined_response = self.llm.invoke(prompt).content.strip()  # Strip extra spaces for short answers
             return refined_response
 
         except Exception as e:
-            logger.error(f"Query processing error: {e}")
+            logger.error(f"Error during query execution: {e}")
             return f"An error occurred while processing the question: {e}"
 
 
@@ -116,20 +109,22 @@ def main():
     neo4j_username = "neo4j"
     neo4j_password = "123456789"
 
-    qsp_path='outputs/Paper_16_Evaluation.csv'
-    qsp_df=pd.read_csv(qsp_path)
-    all_questions=list(qsp_df['Question'])
-    all_answers=[]
+    qsp_path = 'outputs/Paper_16_Evaluation.csv'
+    qsp_df = pd.read_csv(qsp_path)
+    all_questions = list(qsp_df['Question'])
+    all_answers = []
 
     if not openai_api_key or not neo4j_password:
         print("Error: Missing OpenAI or Neo4j credentials")
         return
+
     qa_system = QSPGraphQA(
         neo4j_uri=neo4j_uri,
         neo4j_username=neo4j_username,
         neo4j_password=neo4j_password,
         openai_api_key=openai_api_key
     )
+
     if qa_system.connect():
         try:
             for question in all_questions:
@@ -137,15 +132,15 @@ def main():
                 response = qa_system.query(question)
                 print(f"Response: {response}")
                 all_answers.append(response)
-
         finally:
             qa_system.close()
     else:
-        print("Failed to connect to Neo4j")
+        print("Failed to connect to Neo4j.")
 
-    print('all_answers: ',all_answers)
-    qsp_df['NER_MODEL_ANSWER']=all_answers
-    qsp_df.to_csv('outputs/result_paper_16.csv',index=False)
+    print('all_answers:', all_answers)
+    qsp_df['NER_MODEL_ANSWER'] = all_answers
+    qsp_df.to_csv('outputs/result_paper_16.csv', index=False)
+
 
 if __name__ == "__main__":
     main()
